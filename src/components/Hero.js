@@ -8,7 +8,7 @@ export default function Hero() {
     useEffect(() => {
         const tl = gsap.timeline();
         tl.from('#balloon-with-string', {duration: 2, x: 100, y: 100})
-          .fromTo('#balloon', {z: -15}, {duration: 2, z: 15, yoyo: true,repeat: -1})
+          .fromTo('#balloon', {x: -4.5, y: -4.5}, {duration: 2, x: 4.5, y: 4.5, yoyo: true,repeat: -1})
     })
   return (
     <div className="section">
