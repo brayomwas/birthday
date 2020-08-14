@@ -74,7 +74,7 @@ html, body {
     display: block;
     position: relative;
     margin: -10em auto 0 auto;
-    top: -270px;
+    top: -360px;
 }
 
 /*candle*/
@@ -83,7 +83,7 @@ html, body {
     background: #ffffff;
     border-radius: 10px;
     position: absolute;
-    top: 100px;
+    top: 13px;
     left: 50%;
     margin-left: -2.4px;
     margin-top: -8.3333333px;
@@ -195,6 +195,9 @@ html, body {
         position: relative;
         top: 45px;
         /* outline: 1px solid red; */
+    }
+    #cake {
+        top: -270px
     }
     .velas {
         top: -15px;
